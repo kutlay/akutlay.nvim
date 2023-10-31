@@ -34,6 +34,16 @@ use {
         {'L3MON4D3/LuaSnip'},
     }
 }
+use({
+    "theprimeagen/harpoon",
+    config = function()
+        require("harpoon").setup{
+            tabline = true
+        }
+    end
+})
+
+
 
 use('ThePrimeagen/vim-be-good')
 end)
